@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portifolio Website HTML CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="https://kit.fontawesome.com/9c10f58e38.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Daniel.</a>
+
+        <div class="menu-icon" id="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="navbar" id="navbar">
+            <a href="#inicio" class="active">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="home section active" id="inicio">
+        <div class="home-content">
+            <h1>Daniel Ribeiro</h1>
+            <h3>Fullstack developer</h3>
+            <p>Estudante de Engenharia de Software e Desenvolvedor Web Full-Stack em formação.</p>
+
+            <div class="btn-box">
+                <a href="#contato">Vamos conversar!</a>
+            </div>
+
+            <div class="home-social">
+                <a href="https://github.com/DANR1BEIRO" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/danr1beiro/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-wrapper">
+                <img src="perfil.png" alt="Foto de Daniel" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="sobre">
+        <div class="box-sobre">
+            <p>Estou em transição de carreira para a área de tecnologia, atualmente cursando
+                Engenharia de Software. Tenho experiência consolidada em ambiente corporativo,
+                atuando como operador de serviços portuários na CSN desde 2013, onde desenvolvi
+                competências como trabalho em equipe, resolução de problemas e cumprimento de metas.
+                No momento, estou focado em minha formação como desenvolvedor e busco minha primeira
+                oportunidade na área de tecnologia para aplicar e expandir meus conhecimentos em
+                projetos desafiadores.
+            </p>
+        </div>
+
+        <div class="habilidades">
+            <h3>Habilidades</h3>
+            <p>Já tive contato com as seguintes tecnologias e ferramentas durante meus estudos e projetos:</p>
+        </div>
+
+        <div class="stack-icons" style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+            <i class="devicon-git-plain colored" style="font-size: 2.5rem;"></i>
+            <i class="devicon-github-original colored" style="font-size: 2.5rem;"></i>
+            <i class="devicon-linux-plain colored" title="Linux" style="font-size: 3rem;"></i>
+            <i class="devicon-java-plain-wordmark colored" title="Java" style="font-size: 4rem;"></i>
+            <i class="devicon-spring-plain-wordmark colored" title="Spring Boot" style="font-size: 4rem;"></i>
+            <i class="devicon-html5-plain colored" style="font-size: 2.5rem;"></i>
+            <i class="devicon-css3-plain colored" style="font-size: 2.5rem;"></i>
+            <i class="devicon-javascript-plain colored" style="font-size: 2.5rem;"></i>
+            <i class="devicon-python-plain colored" style="font-size: 2.5rem;"></i>
+        </div>
+    </section>
+
+    <section class="section" id="projetos">
+        <h2>Meus projetos</h2>
+        <p>em breve.</p>
+    </section>
+
+    <section class="section" id="contato">
+        <div class="contato-titulo">
+            <h2>Contato</h2>
+            <p>Entre em contato para uma conversa</p>
+        </div>
+
+        <div class="contato-box">
+            <div class="info-item">
+                <i class="fas fa-phone-alt"></i>
+                <div>
+                    <h4>Telefone</h4>
+                    <p>+55 (21) 98356-7623</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <h4>E-mail</h4>
+                    <p>danribeirodev@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <h4>Localização</h4>
+                    <p>Itaguaí, RJ - Brasil</p>
+                </div>
+            </div>
+
+            <a href="mailto:danribeirodev@gmail.com" class="contato-btn">Enviar um e-mail →</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
